@@ -148,6 +148,7 @@ export type UseCartContextType = ReturnType<typeof useCartContext>;
 
 // Define the initial state for the cart context.
 const initCartContextState: UseCartContextType = {
+  // eslint-disable-next-line @typescript-eslint/no-empty-function
   dispatch: () => {},
   REDUCER_ACTIONS: REDUCER_ACTION_TYPE,
   totalItems: 0,
